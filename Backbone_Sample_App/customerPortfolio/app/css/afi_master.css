@@ -1,0 +1,354 @@
+html { font-size: 1em }
+body { margin: 0; padding: 0; font-family: Roboto, sans-serif; font-size: 1em; font-weight: 400; color: #333; background: #efefef; }
+a { text-decoration: none; color: #577dbe; }
+a:hover, a:focus { color: #588fec; outline: none; text-decoration:none; }
+h1 { font-size: 2em; font-weight: 700; line-height: 1; padding: 6px 0 5px; border-top: 4px solid #6991ca; }
+h1 + p { margin-top: 0;  margin-bottom: 7px; }
+h2 { color: #333333; font-size: 1.3em; font-weight: 500; }
+p { color: #777; font-size: 0.87em; margin: 0 0 14px; }
+
+/* Bubble List */
+.bubble-list:before { display: block; width: 9px; height: 9px; border: 1px solid #577dbe; border-right: none; border-bottom: none; content: ""; background: #d8e8ff; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
+.bubble-list { width:100%; background-color: #d8e8ff; border:1px solid #577dbe; border-radius:8px; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); padding: 4px 18px 6px; }
+.bubble-list > li { padding:15px 20px; cursor:pointer; text-transform: capitalize !important; font-weight: 300; color: #333; padding: 12px 0; border-bottom:1px solid #ccc; background:none; }
+.bubble-list > li:last-child { border-bottom:none; }
+.bubble-list > li:hover { background-color:#EFEFEF; }
+
+/* Choice List */
+.choice-list { float: left; overflow: hidden; margin-bottom: 3%; border: 1px solid #577dbe; border-radius: 6px; background: #fff; }
+.choice-list:after { clear: both; content: " "; display: table; }
+.choice-list-item { float: left; }
+.choice-list-button {
+    display: block;
+    padding: 12px 0;
+    border-right: 1px solid #577dbe;
+    vertical-align: middle;
+    text-align: center;
+    color: #577dbe;
+    cursor: pointer;
+    }
+.choice-list--double .choice-list-button {
+    width: 150px;
+    width: 148px;
+    border: none;
+    }
+.choice-list--triple .choice-list-button {
+    width: 99px;
+    }
+.choice-list-item:last-child .choice-list-button {
+    border-right: none;
+    }
+.choice-list--triple .choice-list-item:last-child .choice-list-button {
+    width: 100px;
+    }
+.choice-list-button.active {
+    background: #577DBE;
+    box-shadow: inset 0 0 9px 2px #4758a1;
+    color: #fff;
+    }
+.choice-list--quad .choice-list-button {
+    width: 74px;
+    }
+.choice-list--quad .choice-list-item:last-child .choice-list-button {
+    width: 75px;
+    }
+.choice-list-button span {
+    display: block;
+    }
+
+/* Buttons */
+.button.button--small {
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    padding: .3em .8em;
+    font-size: 0.87em;
+    font-weight: 400;
+    line-height: 1;
+    background: transparent;
+    }
+.button.active { background: #577dbe; color: #fff; }
+.scroll { overflow-x: scroll; overflow-y: visible; }
+
+/* Big Screen */
+@media screen and (min-width: 1023px) {
+h1 a {
+    display: inline;
+    text-indent: 0;
+    }
+.actions ul {
+    float: left;
+    }
+.actions li {
+    float: left;
+    width: 33.225%;
+    height: 95px;
+    }
+.favorite-contacts {
+    float: left;
+    width: 31.91489361702128%; /* 300 / 940 */
+    }
+.favorite-contacts a {
+    padding-top: 19px; 
+    padding-bottom: 21px; 
+    }
+.favorite-links {
+    float: right;
+    width: 63.82978723404255%; /* 600 / 940 */
+    }
+.favorite-links ul {
+    float: left;
+    }
+.favorite-links li {
+    width: 49.8330550918197%;
+    float: left;
+    }
+.choice-list--double .choice-list-button {
+    width: 172px;
+    border: none;
+    }
+.choice-list--triple .choice-list-button {
+    width: 120px;
+    }
+.choice-list--triple .choice-list-item:last-child .choice-list-button {
+    width: 120px;
+    }
+.choice-list--quad .choice-list-button {
+    width: 111px;
+    }
+.choice-list--quad .choice-list-item:last-child .choice-list-button {
+    width: 111px;
+    }
+.calendar {
+    border-top: 3px solid #577dbe;
+    }
+.calendar-month {
+    float: left;
+    }
+.calendar-day {
+    width: 63.82978723404255%;
+    float: right;
+    clear: none;
+    }
+.calendar-agenda {
+    width: 47.87234042553191%;
+    }
+.calendar-agenda.today {
+    float: left;
+    }
+.calendar-agenda.other-days {
+    float: right;
+    clear: none;
+    }
+.calendar-nav span {
+    display: inline;
+    }
+.calendar-nav .week-toggle {
+    float: right;
+    }
+
+/* Account View */    
+.account-name {
+    font-size: 112.5%;
+    }
+.account-name span {
+    display: inline;
+    padding-left: 1em;
+    }
+.account-value {
+    float: right;
+    margin-top: -3%;
+    text-align: right;
+    }
+#account-view-list-page .account-value {
+    margin-top: 0;
+    }
+.account-value dt {
+    font-size: 131.25%;
+    }
+.account-value .alpha {
+    font-size: 300%;
+    }
+.scroll {
+    overflow-x: visible;
+    overflow-y: visible;
+    }
+.article dl {
+    display: table-cell;
+    width: 33%;
+    }
+.article dl + dl {
+    border-top: none;
+    border-left: 1px solid #ccc;
+    }
+.article.accordeon thead {
+    display: table-header-group;
+    }
+.article.accordeon td {
+    display: table-cell;
+    width: 33%;
+    }
+.article.accordeon td:before {
+    display: none;
+    }
+.action-wrap ul {
+    position: absolute;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    #content,
+    #footer {
+        width: 94.375%;
+        }
+    h1 {
+        padding-top: 11px;
+        font-size: 1.31em;
+        }
+    /* Navigator */
+    #tip { display: none; font-size: 0.85em; }
+    /* end navigator */
+    .app-nav dt { font-size: 0.15em; }
+
+    /* Calendar */
+    .calendar tbody th.time {
+        font-size: 1em;
+        }
+    .calendar__hand:before {
+        background-position: 1px 50%;
+        }
+    .modal h4 {
+        font-size: 1.25em;
+        }
+}
+
+@media only screen and (max-width: 320px) {
+    #search {
+        background: #fff;
+        border-bottom: 1px solid #ccc;
+        }
+    .has-submenu.active {
+        left: 0;
+        border-width: 1px 0 1px 0;
+        }
+}
+
+/* Retina display and high pixel density devices */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (-moz-min-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+    #reveal-main-nav a {
+    background-image: url(../images/ameriprise-logo@2x.png);
+    background-size: 40px;
+        }
+    #reveal-contact-nav {
+    background-image: url(../images/down-angle@2x.png);
+    background-size: 15px;
+        }
+    #contact-nav dt a {
+        background-image: url(../images/favorite-star@2x.png);
+        background-size: 16px;
+        }
+    a#reveal-favorite-button {
+        background-image: url(../images/favorite-star-big@2x.png);
+        background-size: 30px;
+        }
+    #reveal-groups-nav,
+    a#obo {
+    background-image: url(../images/down-triangle@2x.png);
+    background-size: 8px;
+        }
+    #search input[type=submit] {
+        background-image: url(../images/search@2x.png);
+        background-size: 17px;
+    }
+    .nav-list-container a,
+    .actions a {
+        background-image: url(../images/launchpad-icons@2x.png);
+        background-size: 30px;
+        }
+    #launchpad-page h1,
+    #favorites-page h1,
+    #contact-details-page h1,
+    .actions li:hover a,
+    .more-actions h3 {
+        background-image: url(../images/launchpad-icons-hover@2x.png);
+        background-size: 30px;
+        }
+    .nav-list-container .has-submenu.active a,
+    .actions li.current a {
+        background-image: url(../images/launchpad-icons-active@2x.png);
+        background-size: 30px;
+        }
+    .app .more-actions h3 {
+        background-image: url(../images/more-actions@2x.png);
+        background-size: 22px;
+        }
+    .app-nav a {
+        background-image: url(../images/nav-sprite@2x.png);
+        background-size: 32px;        }
+    .collapsible h2 {
+        background-image: url(../images/collapse@2x.png);
+        background-size: 18px;
+        }
+    .calendar-nav a {
+        background-image: url(../images/previous-next@2x.png);
+        background-size: 110px;
+        }
+    .calendar-month .has-meeting {
+        background-image: url(../images/has-meeting-dot@2x.png);
+        background-size: 6px;
+        }
+    .calendar__hand:before {
+        background-image: url(../images/calendar-hand@2x.png);
+        background-size: 18px;
+        }
+    .action-wrap a {
+        background-image: url(../images/more-actions@2x.png);
+        background-size: 22px;
+        }
+    .more-actions-button a {
+        background-image: url(../images/more-less@2x.png);
+        background-size: 22px;
+        }
+    .accordeon-button {
+        background-image: url(../images/more-less@2x.png);
+        background-size: 22px;
+        }
+}
+
+/* Retina display and high pixel density devices and bigger than 480px */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 481px),
+    only screen and (-o-min-device-pixel-ratio: 3/2) and (min-width: 481px),
+    only screen and (-moz-min-device-pixel-ratio: 1.5) and (min-width: 481px),
+    only screen and (min-device-pixel-ratio: 1.5) and (min-width: 481px) {
+    .collapsible h2 {
+        background: transparent;
+        }
+}
+
+/* Retina display and high pixel density devices and smaller than 480px */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 480px),
+    only screen and (-o-min-device-pixel-ratio: 3/2) and (max-width: 480px),
+    only screen and (-moz-min-device-pixel-ratio: 1.5) and (max-width: 480px),
+    only screen and (min-device-pixel-ratio: 1.5) and (max-width: 480px) {
+    #launchpad-page h1,
+    #favorites-page h1,
+    #contact-details-page h1 {
+        padding-top: 6px;
+        padding-left: 20px;
+        background-size: 18px;
+        }
+    #favorites-page h1 {
+        background-position: 0 -129px;
+        background-position: 0 -112px;
+        }
+    #contact-details-page h1 {
+        background-position: 0 -529px;
+        }
+    h1 a {
+        text-indent: -20px;
+        }
+}

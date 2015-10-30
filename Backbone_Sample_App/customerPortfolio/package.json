@@ -1,0 +1,22 @@
+{
+  "name": "CustomerPortfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A Customer Portfolio Project",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.6.1",
+    "shelljs": "^0.2.6"
+  },
+  "scripts": {
+
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8001 -c-1",
+
+    "pretest": "npm install",
+
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update"
+
+  }
+}

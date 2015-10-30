@@ -1,0 +1,26 @@
+[
+{
+    "av_product_name": "SPS ADVANTAGE W/ ONE",
+    "av_value": "100",
+    "av_plan": "Non-Qualified",
+    "av_owners": "WALTERT F NIEDERHEIMER JR ALEXANDRA P NIEDERHEIMER-CHRISTODOULOPOULOS"
+},
+{
+    "av_product_name": "SPS ADVANTAGE W/ TWO",
+    "av_value": "1000",
+    "av_plan": "Qualified",
+    "av_owners": "WALTERQ F NIEDERHEIMER JR ALEXANDRA P NIEDERHEIMER-CHRISTODOULOPOULOS"
+},
+{
+    "av_product_name": "SPS ADVANTAGE W/ THR",
+    "av_value": "10000",
+    "av_plan": "NonQualified",
+    "av_owners": "WALTERR F NIEDERHEIMER JR ALEXANDRA P NIEDERHEIMER-CHRISTODOULOPOULOS"
+},
+{
+    "av_product_name": "SPS ADVANTAGE W/ FOU",
+    "av_value": "100000",
+    "av_plan": "NonsQualified",
+    "av_owners": "WALTERS F NIEDERHEIMER JR ALEXANDRA P NIEDERHEIMER-CHRISTODOULOPOULOS"
+}
+]

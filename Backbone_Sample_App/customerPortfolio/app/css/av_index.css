@@ -1,0 +1,578 @@
+﻿/*header*/
+
+.av-nav {
+    background-color: white;
+    vertical-align: baseline!important;
+}
+.av-client-view {
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+.av-client-view > a {
+    color: #577dbe;
+}
+.av-nav-pad {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.av-help-icon {
+    background: url('../img/nav-sprite.png') no-repeat 0 -150px;
+    width: 31px;
+    height: 29px;
+    /*position:absolute;
+    top: 10px;*/
+}
+@media (min-width: 1200px) {
+    .av-help-holder {
+        padding-top: 10px;
+    }
+}
+.alpha {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 700;
+    /*line-height: 1;*/
+}
+.av-acct-value-header {
+    text-align: right;
+}
+/*Total-Investment Value*/
+
+.av-account-value {
+    /* float: right; */
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.container {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.av-tiv {
+    font-size: 1.3125em!important;
+    ;
+    /* text-align:right; */
+    font-weight: bold;
+}
+.av-value {
+    color: #7db742;
+    font-size: 3em;
+    line-height: 1;
+    font-weight: bolder;
+    /* text-align: right; */
+}
+.av-content {
+    /* line-height: 1.2;
+    margin: 1% auto 40px;
+    padding: 3.2% 0 0;
+    width: 91.7969%;
+    padding-top: 2em!important; */
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding-top: 30px; */
+}
+/*av-content-table*/
+
+.av-data-container {
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    vertical-align: top;
+}
+.container .row {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+    clear: both;
+}
+.av-data-container .row {
+    border-bottom: 1px solid #ccc;
+}
+.row.last-row {
+    border-bottom: none;
+}
+.av-table-sort-header {
+    font-weight: bolder;
+    padding-top: 5px;
+    /* padding-left: 10px; */
+    font-size: 1em;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-right: 0;
+    ;
+}
+.av-table-row {
+    /* padding: 10px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.av-wrap {
+    word-wrap: break-word;
+}
+.mm-wrap {
+    word-break: break-all;
+}
+.av-mm-pad {
+    padding-left: 25px;
+}
+.av-mm-image {
+    background: url("../img/more-actions.png") no-repeat scroll 0 -100px rgba(0, 0, 0, 0);
+    /*float: left;*/
+    height: 29px;
+    left: 20px;
+    position: absolute;
+    top: 2px;
+    width: 22px;
+}
+.av-acc-maintainance-image {
+    background: url("../img/more-actions.png") no-repeat scroll 0 -200px rgba(0, 0, 0, 0);
+    /*float: left;*/
+    height: 22px;
+    left: 64px;
+    position: absolute;
+    top: 7px;
+    width: 22px;
+}
+.sprite1 {
+    background: url('../img/av-arrows.png') no-repeat 0 0;
+    width: 12px;
+    height: 24px;
+}
+.av-acc-main-pad {
+    padding-left: 25px;
+}
+.av-col-account-name {
+    font-weight: 600;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 1.22em;
+}
+.av-pdt-subname, .av-acc-num {
+    font-weight: 500;
+    text-transform: uppercase;
+    white-space: initial;
+}
+.av-col-account-value {
+    font-size: 1.4125em;
+    font-weight: bold;
+    text-align: right;
+}
+.av-col-traditional-ira {
+    font-weight: 500;
+    /*word-wrap:break-word;*/
+}
+.av-col-traditional-ira .av-nq {
+    font-weight: 200!important;
+}
+.av-col-owner {
+    /*font-size:0.8em;*/
+    color: #777;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+/*content-footer*/
+
+.av-footer {
+    /*border-top: 1px solid #ccc;*/
+    clear: both;
+    color: #777;
+    font-weight: 500;
+    /*line-height: 0.4;*/
+    margin: 40px auto 0;
+    padding: 18px 0 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.av-footer>p {
+    margin-bottom: 5px;
+}
+.av-footer>hr {
+    border-top: 1px solid #ccc;
+}
+.av-nav .row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media (min-width: 300px) {
+    .btn {
+        display: block!important;
+    }
+    .show-mobile {
+        display: block!important;
+    }
+    .collapse {
+        clear: both;
+    }
+    .show-desktop-tablet {
+        display: none;
+    }
+    .av-tiv, .av-value {
+        text-align: left;
+    }
+    .navbar-collapse.in {
+        overflow-y: visible;
+        padding-left: 0;
+        padding-right: 0;
+        border-top: 1px solid #ccc;
+        background-color: #efefef;
+        margin-top: 15px;
+        float: left;
+        margin-bottom: -15px;
+        font-size: 1.2em;
+    }
+    .navbar-collapse.in div.mobile-header, .collapsing div.mobile-header {
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .navbar-collapse.in div.mobile-header.img, .collapsing div.mobile-header.img {
+        font-weight: normal;
+        padding-bottom: 15px;
+    }
+    .show-tablet {
+        display: none;
+    }
+    .collapsing {
+        float: left;
+        padding-left: 0;
+        padding-right: 0;
+        clear: both;
+        border-top: 1px solid #ccc;
+        background-color: #efefef;
+        margin-top: 15px;
+        float: left;
+        margin-bottom: -15px;
+        font-size: 1.2em;
+    }
+    .av-acc-maintainance-image {
+        background: url("../img/more-actions.png") no-repeat scroll 0 -200px rgba(0, 0, 0, 0);
+        height: 22px;
+        left: 20px;
+        position: absolute;
+        top: 7px;
+        width: 22px;
+    }
+    .av-mm-image {
+        background: url("../img/more-actions.png") no-repeat scroll 0 -100px rgba(0, 0, 0, 0);
+        height: 29px;
+        left: 18px;
+        position: absolute;
+        top: 3px;
+        width: 22px;
+    }
+    .av-mm-pad {
+        padding-left: 30px;
+    }
+    .av-down-angle {
+        background: url("../img/down-angle.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+        height: 9px;
+        left: 25px;
+        position: absolute;
+        top: 5px;
+        width: 15px;
+    }
+    .av-up-angle {
+        background: url('../img/up-angle.png') no-repeat 0 0;
+        height: 9px;
+        left: 25px;
+        position: absolute;
+        top: 5px;
+        width: 15px;
+    }
+}
+@media (min-width: 420px) {
+    .av-acc-maintainance-image {
+        background: url("../img/more-actions.png") no-repeat scroll 0 -200px rgba(0, 0, 0, 0);
+        height: 22px;
+        left: 20px;
+        position: absolute;
+        top: 10px;
+        width: 22px;
+    }
+    .av-mm-image {
+        background: url("../img/more-actions.png") no-repeat scroll 0 -100px rgba(0, 0, 0, 0);
+        height: 29px;
+        left: 18px;
+        position: absolute;
+        top: 7px;
+        width: 22px;
+    }
+    .av-down-angle {
+        background: url("../img/down-angle.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+        height: 9px;
+        left: 45px;
+        position: absolute;
+        top: 9px;
+        width: 15px;
+    }
+    .av-up-angle {
+        background: url('../img/up-angle.png') no-repeat 0 0;
+        height: 9px;
+        left: 45px;
+        position: absolute;
+        top: 9px;
+        width: 15px;
+    }
+}
+@media (min-width: 768px) {
+    .btn {
+        display: none!important;
+    }
+    .collapse {
+        display: block!important;
+    }
+    .show-mobile {
+        display: none!important;
+    }
+    .collapse {
+        clear: none;
+    }
+    .show-desktop-tablet {
+        display: block;
+    }
+    .av-tiv, .av-value {
+        text-align: right;
+    }
+    .show-tablet {
+        display: block;
+    }
+    .show-desktop {
+        display: none;
+    }
+    .av-mm-pad {
+        padding-left: 25px;
+    }
+    .av-mm-image {
+        background: url("../img/more-actions.png") no-repeat scroll 0 -100px rgba(0, 0, 0, 0);
+        float: left;
+        height: 29px;
+        left: 20px;
+        position: absolute;
+        top: 2px;
+        width: 22px;
+    }
+    .av-acc-maintainance-image {
+        background: url("../img/more-actions.png") no-repeat scroll 0 -200px rgba(0, 0, 0, 0);
+        float: left;
+        height: 22px;
+        left: 64px;
+        position: absolute;
+        top: 7px;
+        width: 22px;
+    }
+}
+@media (min-width: 1025px) {
+    /*.av-acc-maintainance-image{
+        left: 55px;
+    }*/
+    .show-mobile {
+        display: none;
+    }
+    .show-tablet {
+        display: none;
+    }
+    .show-desktop {
+        display: block;
+    }
+}
+@media (min-width: 300px) {
+    html {
+        font-size: 50%;
+    }
+    /* .av-col-account-value{
+        font-size: 30%;
+    } */
+    /* .av-col-account-name{
+        font-size: 30%;
+    } */
+}
+@media (min-width: 420px) {
+    html {
+        font-size: 80%;
+    }
+    /* .av-col-account-value{
+        font-size: 40%;
+    } */
+    /* .av-col-account-name{
+        font-size: 40%;
+    } */
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 68%;
+    }
+    /* .av-col-account-value{
+        font-size: 60%;
+    } */
+    /* .av-col-account-name{
+        font-size: 60%;
+    } */
+}
+@media (min-width: 1024px) {
+    html {
+        font-size: 85%;
+    }
+    /* .av-col-account-value{
+        font-size: 70%;
+    } */
+    /* .av-col-account-name{
+        font-size: 70%;
+    } */
+}
+@media (min-width: 1200px) {
+    html {
+        font-size: 100%;
+    }
+    /*   .av-col-account-value{
+      font-size: 100%;
+       } 
+       .av-col-account-name{
+      font-size: 100%;
+       } */
+}
+/*.av-table-row>div{
+    border-right: 1px solid #ccc;
+}*/
+
+/*Bootstrap column resize*/
+
+@media (min-width: 768px) {
+    .av-table-row .col-sm-1 {
+        width: 4%;
+    }
+    .av-table-row .col-sm-2 {
+        width: 8%;
+    }
+    .av-table-row .col-sm-3 {
+        width: 12%;
+    }
+    .av-table-row .col-sm-4 {
+        width: 16%;
+    }
+    .av-table-row .col-sm-5 {
+        width: 20%;
+    }
+    .av-table-row .col-sm-6 {
+        width: 24%;
+    }
+    .av-table-row .col-sm-7 {
+        width: 28%;
+    }
+    .av-table-row .col-sm-8 {
+        width: 32%;
+    }
+    .av-table-sort-header .col-sm-1 {
+        width: 4%;
+    }
+    .av-table-sort-header .col-sm-2 {
+        width: 8%;
+    }
+    .av-table-sort-header .col-sm-3 {
+        width: 12%;
+    }
+    .av-table-sort-header .col-sm-4 {
+        width: 16%;
+    }
+    .av-table-sort-header .col-sm-5 {
+        width: 20%;
+    }
+    .av-table-sort-header .col-sm-6 {
+        width: 24%;
+    }
+    .av-table-sort-header .col-sm-7 {
+        width: 28%;
+    }
+    .av-table-sort-header .col-sm-8 {
+        width: 32%;
+    }
+}
+@media (min-width: 1025px) {
+    .av-table-row .col-md-1 {
+        width: 4%;
+    }
+    .av-table-row .col-md-2 {
+        width: 8%;
+    }
+    .av-table-row .col-md-3 {
+        width: 12%;
+    }
+    .av-table-row .col-md-4 {
+        width: 16%;
+    }
+    .av-table-row .col-md-5 {
+        width: 20%;
+    }
+    .av-table-row .col-md-6 {
+        width: 24%;
+    }
+    .av-table-row .col-md-7 {
+        width: 28%;
+    }
+    .av-table-row .col-md-8 {
+        width: 32%;
+    }
+    .av-table-sort-header .col-md-1 {
+        width: 4%;
+    }
+    .av-table-sort-header .col-md-2 {
+        width: 8%;
+    }
+    .av-table-sort-header .col-md-3 {
+        width: 12%;
+    }
+    .av-table-sort-header .col-md-4 {
+        width: 16%;
+    }
+    .av-table-sort-header .col-md-5 {
+        width: 20%;
+    }
+    .av-table-sort-header .col-md-6 {
+        width: 24%;
+    }
+    .av-table-sort-header .col-md-7 {
+        width: 28%;
+    }
+    .av-table-sort-header .col-md-8 {
+        width: 32%;
+    }
+    .av-mm-image {
+        background: url("../img/more-actions.png") no-repeat scroll 0 -100px rgba(0, 0, 0, 0);
+        /* float: left; */
+        height: 29px;
+        left: 15px;
+        position: absolute;
+        top: 8px;
+        width: 22px;
+    }
+    .av-acc-maintainance-image {
+        background: url("../img/more-actions.png") no-repeat scroll 0 -200px rgba(0, 0, 0, 0);
+        /* float: left; */
+        height: 22px;
+        left: 15px;
+        position: absolute;
+        top: 9px;
+        width: 22px;
+    }
+}
+.navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+}
+#back-top {
+    position: fixed;
+    bottom: 113px;
+    /* margin-left: -150px; */
+    right: 5px;
+    display: none;
+}
+#back-top span:hover{
+    cursor: pointer;
+}
+span.btns:hover{
+    cursor: pointer;
+}
+/*Testing column widths*/
+
+/*.av-table-row>div{
+    border-right:1px solid #ccc;
+}*/
